@@ -1,0 +1,7 @@
+# TEAM
+
+    @ligues
+
+# TECHNOLOGY COLOPHON
+
+    CSS3, HTML5, jQuery, Modernizr, Normalize.css
