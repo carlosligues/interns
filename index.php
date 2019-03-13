@@ -41,11 +41,11 @@
       <div class="join medium blue f20">
         Join our team and #upgradeDARBI
       </div>
-      <div class="padding why extra red f22 under">
-        <div class="info">
+      <div class="padding why">
+        <div class="info extra red f22 under">
           INFO:
         </div>
-        <div class="why_dieste">
+        <div class="why_dieste extra red f22 under">
           WHY DIESTE ?
         </div>
       </div>
@@ -65,12 +65,12 @@
         POSITIONS
       </div>
       <div class="padding positions">
-        <div class="position p1 extra white f16 under">Brand Leadership</div>
-        <div class="position p2 extra white f16 under">Creative</div>
-        <div class="position p3 extra white f16 under">Planning</div>
-        <div class="position p4 extra white f16 under">Production</div>
-        <div class="position p5 extra white f16 under">Media</div>
-        <div class="position p6 extra white f16 under">Public Relations</div>
+        <div class="position p1 extra white f16 under"><span class="bullets_l"></span>Brand Leadership<span class="bullets_r"></span></div>
+        <div class="position p2 extra white f16 under"><span class="bullets_l"></span>Creative<span class="bullets_r"></span></div>
+        <div class="position p3 extra white f16 under"><span class="bullets_l"></span>Planning<span class="bullets_r"></span></div>
+        <div class="position p4 extra white f16 under"><span class="bullets_l"></span>Production<span class="bullets_r"></span></div>
+        <div class="position p5 extra white f16 under"><span class="bullets_l"></span>Media<span class="bullets_r"></span></div>
+        <div class="position p6 extra white f16 under"><span class="bullets_l"></span>Public Relations<span class="bullets_r"></span></div>
       </div>
       <div class="application extra blue f22 under">
         APPLICATION:
@@ -84,7 +84,7 @@
         <div class="indication extra white f16">
           Choose your preferred internship department from favorite to least favorite.
         </div>
-        <div class="]">
+        <div class="">
           <label class="extra white f16" for="choice_1">1st choice*</label>
           <input type="text" name="choice_1" value="">
         </div>
@@ -125,7 +125,7 @@
           What can you do that DARBI can’t?*
         </div>
         <div class="column_wide">
-          <textarea name="comments" rows="8" cols="80"></textarea>
+          <textarea name="comments"></textarea>
           <div class="submit_button">
             <input type="submit" id="btn_submit" value="SUBMIT">
           </div>

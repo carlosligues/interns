@@ -50,8 +50,8 @@ input[type="text"],input[type="file"],textarea {
 
 textarea{
   width: 100%;
-  display: block;
   height: 100px;
+  resize:none;
 }
 
 input[type="submit"],input[type="button"]{
@@ -70,7 +70,7 @@ hr{margin-top: 60px}
 
 input[type="submit"]:hover,input[type="button"]:hover{background-color: #f3f3f3;}
 a{color:#007db5}
-footer{margin: 20px 0px 60px 0px;}
+footer{margin: 20px 0px 60px 0px;display: flex;}
 
 .wrapper{max-width: 1290px;margin: 0 auto;background-image: url(../img/bg.jpg);background-position: center top;background-repeat: repeat-y;min-height: 100vh;}
 .content{max-width: 1000px;margin: 0 auto;}
@@ -84,10 +84,10 @@ footer{margin: 20px 0px 60px 0px;}
 .blue{color:#007db5;}
 .f14{font-size: 14px;}
 .f16{font-size: 16px;}
-.f18{font-size: 16px;}
-.f20{font-size: 16px;}
-.f22{font-size: 16px;}
-.f24{font-size: 16px;}
+.f18{font-size: 18px;}
+.f20{font-size: 20px;}
+.f22{font-size: 22px;}
+.f24{font-size: 24px;}
 .under{text-decoration: underline;}
 
 
@@ -95,15 +95,19 @@ footer{margin: 20px 0px 60px 0px;}
 .program{margin-bottom: 25px;}
 .logo{max-width: 340px;margin: 0 auto;text-align: center;}
 .logo img{width: 100%;}
-.darbi{max-width: 760px;margin: 20px auto 0 auto; text-align: center;letter-spacing: 2.5pt;line-height: 2;}
+.darbi{max-width: 840px;margin: 20px auto 0 auto; text-align: center;letter-spacing: 2.5pt;line-height: 2;}
 .join{width: 100%; text-align: center;margin-top: 30px;}
-.why{margin-top: 40px;}
+.why{margin: 40px 0px 20px 0px !important}
+.info,.why_dieste{display: inline-block;}
+.why_dieste{margin-left: 5%}
 .padding{max-width: 818px; margin: 0 auto;}
 .dates{margin-top: 40px; display: flex;flex-wrap: wrap;}
 .date{flex-grow: 1;width: 33%; margin-bottom: 20px;}
-.positions_header{}
+.positions_header{margin-top: 30px}
 .positions{margin-top: 20px;display: flex;flex-wrap: wrap;}
 .position{flex-grow: 1;width: 33%; margin-bottom: 20px;}
+.bullets_l{background-image: url(../img/bullets_l.png);width: 25px;height: 14px;display: inline-block; margin-right: 6px;position: relative;top: 3px;}
+.bullets_r{background-image: url(../img/bullets_r.png);width: 25px;height: 14px;display: inline-block; margin-left: 6px;position: relative;top: 3px;}
 .application{margin-top: 20px;}
 .step{margin-top: 40px;}
 .indication{margin-top: 10px}
@@ -111,5 +115,5 @@ footer{margin: 20px 0px 60px 0px;}
 .column_two{display: inline-block;}
 .column_wide{max-width: 630px;}
 .submit_button{width: 100%;text-align: right;margin-left: 20px;}
-.visit,.copy{display: inline-block;width: 49%}
+.visit,.copy{flex: 50%;}
 .copy{text-align: right;}

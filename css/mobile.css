@@ -1,0 +1,51 @@
+@media screen and (max-width: 700px) {
+
+  label{margin-left: 0px;}
+
+  input[type="text"],input[type="file"],textarea {margin-left: 0px;width: 100%;margin-left: 0px !important;}
+
+  textarea{}
+
+  input[type="submit"],input[type="button"]{
+
+  }
+
+  hr{}
+  footer{}
+
+  .wrapper{}
+  .content{padding: 0px 20px}
+
+  .f14{font-size: 12px;}
+  .f16{font-size: 14px;}
+  .f20{font-size: 18px;}
+  .f22{font-size: 19px;}
+
+  .dieste{padding-top: 20px}
+  .program{}
+  .logo{}
+  .logo img{}
+  .darbi{font-size: 16px}
+  .join{font-size: 18px}
+  .why{}
+  .info,.why_dieste{}
+  .why_dieste{}
+  .padding{}
+  .dates{display: block;}
+  .date{flex: none;width: 100%}
+  .positions_header{}
+  .positions{display: block;}
+  .position{flex: none;width: 100%;text-align: center;}
+  .bullets_l{}
+  .bullets_r{}
+  .application{margin-top: 40px;}
+  .step{margin-top:15px}
+  .indication{margin-top: 10px}
+  .column_one{display: block;}
+  .column_two{display: block;}
+  .column_wide{}
+  .submit_button{margin-left: 0px; text-align: center;}
+  .visit,.copy{}
+  .copy{}
+
+}
